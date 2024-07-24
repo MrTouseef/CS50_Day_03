@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media_Query Layout</title>
+    <style>
+      div {
+        /* background-color: red; */
+        height: 500px;
+        align-content: center;
+        text-align: center;
+        font-size: 50px;
+      }
+      @media only screen and (max-width: 500px) {
+        body {
+          background-color: greenyellow;
+        }
+      }
+      @media only screen and (min-width: 501px) {
+          body {
+            background-color: blue;
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <div>Hey! This is how the quries works in the responsiveness design.</div>
+  </body>
+</html>
